@@ -1,0 +1,30 @@
+{
+  "name": "prev-export",
+  "version": "1.0.0",
+  "description": "Esta es una aplicacion para ejecutar antes de exportar un proyecto ya que esta elimina comentarios y ofusca codigo, muy util para aplicaciones estaticas que tengan contacto directo con el usuraio final",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "SergioRibera",
+  "license": "ISC",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "devDependencies": {
+    "electron": "^10.1.1"
+  },
+  "bin": {
+    "prev-export": "./commands.js"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "yargs": "^16.0.3"
+  }
+}
